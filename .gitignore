@@ -4,6 +4,7 @@
 /build
 /mongo
 /mongo/*
+mongo/
 
 # Logs
 logs
