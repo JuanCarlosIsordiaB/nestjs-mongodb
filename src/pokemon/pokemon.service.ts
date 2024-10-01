@@ -82,6 +82,8 @@ export class PokemonService {
     
   }
 
+   
+
   private handleExceptions(error: any) {
     if (error.code === 11000) {
       throw new BadRequestException(
